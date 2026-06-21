@@ -1,28 +1,29 @@
 ## Assignment 9 (Sessions 9 & 10)
 The assignment consists of the following files:
 
-## 1- Data : two datasets have been used 
- # chess_games_clean.csv (cleaned version of chess dataset)
- # who_life_expectancy.csv :(WHO_URL = 'https://github.com/Priyankkoul/Life-Expectancy-WHO---Data-Analytics/blob/master/DATASET.csv?raw=true'
+1- Data : two datasets have been used 
+ chess_games_clean.csv (cleaned version of chess dataset)
+ who_life_expectancy.csv :(WHO_URL = 'https://github.com/Priyankkoul/Life-Expectancy-WHO---Data-Analytics/blob/master/DATASET.csv?raw=true'
 )
 
-## 2-The main script : session_10.py
-Which uses the above datasets to answer the  questions (Q1-Q5) which will be detailed later
+2-The main script : session_10.py
+Uses the above datasets to answer the  questions (Q1-Q5) which will be detailed later
 
-## 3-Requirements :  requirements.txt
-numpy==2.2.6
-pandas==2.3.3
-python-dateutil==2.9.0.post0
-pytz==2026.2
-scipy==1.15.3
-six==1.17.0
-tzdata==2026.2
+3-Requirements :  requirements.txt   | Package | Version |
+|---------|---------|
+| numpy | 2.2.6 |
+| pandas | 2.3.3 |
+| python-dateutil | 2.9.0.post0 |
+| pytz | 2026.2 |
+| scipy | 1.15.3 |
+| six | 1.17.0 |
+| tzdata | 2026.2 |
 
-## 4-README file : README.md
+# 4-README file : README.md
 
-## 5-.gitignore file
+# 5-.gitignore file
 
-## Assignment Brief — Q1 through Q5
+# Assignment Brief — Q1 through Q5
 
 # Q1 Descriptive statistics profile of chess turns & rating_diff
 From turns profile we can find that games typically last 37-79 turns (middle 50%) and Average game length is 60.5 turns, with most games are of moderate length. Some very short and very long games exist.
