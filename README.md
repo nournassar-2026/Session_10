@@ -1,11 +1,11 @@
-## #Assignment 9 (Sessions 9 & 10)
+##      #Assignment 9 (Sessions 9 & 10)
 The assignment consists of the following files:
 
 1- Data : two datasets have been used 
 * chess_games_clean.csv (cleaned version of chess dataset)
 * who_life_expectancy.csv :
 
-       (WHO_URL = 'https://github.com/Priyankkoul/Life-Expectancy-WHO---Data-Analytics/blob/master/DATASET.csv?raw=true')
+  (WHO_URL = 'https://github.com/Priyankkoul/Life-Expectancy-WHO---Data-Analytics/blob/master/DATASET.csv?raw=true')
 
 2-The main script : session_10.py :Uses the above datasets to answer the  questions (Q1-Q5) which will be detailed later
 
@@ -120,3 +120,5 @@ Black Rating vs Black Win:
 #### Conclusion:
 rated games are significantly longer – the entire confidence interval for rated turns (61.4–62.5) is well above unrated turns (53.2–55.3), with no overlap.
 Bootstrapped CIs confirm the findings – both traditional and bootstrap intervals are nearly identical, validating the statistical reliability.
+### Befor running 
+pip install pandas numpy openpyxl scipy
