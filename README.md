@@ -1,10 +1,10 @@
-## Assignment 9 (Sessions 9 & 10)
+## #Assignment 9 (Sessions 9 & 10)
 The assignment consists of the following files:
 
 1- Data : two datasets have been used 
- chess_games_clean.csv (cleaned version of chess dataset)
- who_life_expectancy.csv :(WHO_URL = 'https://github.com/Priyankkoul/Life-Expectancy-WHO---Data-Analytics/blob/master/DATASET.csv?raw=true'
-)
+* chess_games_clean.csv (cleaned version of chess dataset)
+* who_life_expectancy.csv :
+  (WHO_URL = 'https://github.com/Priyankkoul/Life-Expectancy-WHO---Data-Analytics/blob/master/DATASET.csv?raw=true')
 
 2-The main script : session_10.py
 Uses the above datasets to answer the  questions (Q1-Q5) which will be detailed later
@@ -19,33 +19,34 @@ Uses the above datasets to answer the  questions (Q1-Q5) which will be detailed 
 | six | 1.17.0 |
 | tzdata | 2026.2 |
 
-# 4-README file : README.md
+4-README file : README.md
 
-# 5-.gitignore file
+5-.gitignore file
 
-# Assignment Brief — Q1 through Q5
+Assignment Brief — Q1 through Q5
 
-# Q1 Descriptive statistics profile of chess turns & rating_diff
+Q1 Descriptive statistics profile of chess turns & rating_diff
 From turns profile we can find that games typically last 37-79 turns (middle 50%) and Average game length is 60.5 turns, with most games are of moderate length. Some very short and very long games exist.
 From the rating_diff  profile most games are reasonably balanced (differences under 241 points), Some extreme mismatches exist (up to 1,605 points) and the distribution is heavily right-skewed
 Result :   
-             turns              rating_diff
----------------------------------------------------------------
- dtype       float64               float64
-count      20058.000000           20058.000000
-mean        60.465999              173.091435
-std         33.570585              179.214854
-min          1.000000              0.000000
-25%         37.000000              45.000000
-50%         55.000000              115.000000
-75%         79.000000              241.000000
-max        349.000000               1605.000000
-Mean          60.5                    173.1
-Median        55.0                    115.0
-IQR            42.0                   196.0
-Skew           0.90                    1.95
+Results:
 
-# Q2  Distribution analysis — normality tests, log-transform
+Statistic	Turns	Rating Diff
+dtype	float64	float64
+count	20,058.00	20,058.00
+mean	60.47	173.09
+std	33.57	179.21
+min	1.00	0.00
+25%	37.00	45.00
+50%	55.00	115.00
+75%	79.00	241.00
+max	349.00	1,605.00
+Mean	60.5	173.1
+Median	55.0	115.0
+IQR	42.0	196.0
+Skew	0.90	1.95
+
+Q2  Distribution analysis — normality tests, log-transform
 In order to test normality we used :Shapiro-Wilk — best for n < 5000
 The null hypothesis is that the data is normally distributed. but the p-value is very small nearly: 0.000000, sowe reject the null hypothesis, our data is significantly non-normal.so Transformations are needed. We used two transformations:Square Root Transformation and Log Transformation.
 Results:
